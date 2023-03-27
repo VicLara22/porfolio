@@ -1,0 +1,58 @@
+*{
+    background-color: #A2D2FF;
+margin: 15px;
+}
+.container{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+.container h1{
+    position: absolute;
+    top:37%;
+    width: 586px;
+    height: 48px;
+    font-size: 54px;
+    line-height: 65px;
+}
+.container h2{  
+    position: absolute;
+    top:48%;
+width: 530px;
+height: 35px;
+font-size: 50px;
+line-height: 61px;
+}
+.container h3{
+    position: absolute;
+    top: 30%;
+width: 188px;
+height: 30px;
+font-size: 32px;
+line-height: 39px;
+}
+.btn{
+position: absolute;
+width: 114px;
+height: 37px;
+color: white;
+background: #0E273E;
+border-radius: 10px;
+border-color: #0E273E;
+text-transform: uppercase;
+cursor: pointer;
+top:65%;
+left:5.5%;
+}
+
+.img{
+box-sizing: border-box;
+position: absolute;
+width: 450px;
+height: 427px;
+border-radius: 213px;
+left:55%;
+top:15%;
+}
+
