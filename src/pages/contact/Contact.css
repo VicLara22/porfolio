@@ -1,0 +1,184 @@
+*{
+    font-family: 'Inter';
+    font-style: normal;
+}
+.error{
+    color:red;
+    font-size:x-small;
+}
+.contact{
+    width: 50%;
+    height: 100vh;
+}
+.container_contact_title{
+    position: relative;
+}
+.title_contact{  
+    position: relative;
+     font-size: 80px;
+     left:68%;
+}
+
+ .form_container{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left:35%;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 0.1px solid #d4d3d3;
+    border-radius: 2%;
+    overflow: hidden;
+
+}
+ .form_container:hover {
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.379);
+}
+.name{
+font-size: 20px;
+left:5%;
+top:5%;
+position: absolute;
+}
+.lastName{
+font-size: 20px;
+left:5%;
+    top:20%;
+position: absolute;
+}
+.email{
+    font-size: 20px;
+    left:5%;
+    top:34%;
+position: absolute;
+}
+.message{
+    font-size: 20px;
+    left:5%;
+    top:48%;
+position: absolute;
+}
+
+.input_name{
+    position: absolute;
+    width: 360px;
+    height: 35px;
+    top:11%;
+    left:5%;
+    font-size: 16px;
+    border: 0.1px solid  #d4d3d3;
+    background-color: #ebe9e9;
+    color:rgb(0, 0, 0);
+}
+
+.input_lastName{
+    position: absolute;
+    width: 360px;
+    height: 35px;
+    top:26%;
+    left:5%;
+    font-size: 16px;
+    border: 0.1px solid  #d4d3d3;
+    background-color: #ebe9e9;
+    color:rgb(0, 0, 0);
+}
+.input_email{
+    position: absolute;
+    width: 360px;
+    height: 35px;
+    top:39%;
+    left:5%;
+    font-size: 16px;
+    border: 0.1px solid  #d4d3d3;
+    background-color: #ebe9e9;
+    color:rgb(0, 0, 0);
+}
+
+.input_message{
+    position: absolute;
+    width: 360px;
+    height: 120px;
+    top:54%;
+    left:5%;
+    font-size: 16px;
+    border: 0.1px solid  #d4d3d3;
+    background-color: #ebe9e9;
+    color:rgb(0, 0, 0);
+}
+
+.btn_send{
+    position: absolute;
+    top: 85%;
+    left: 38%;
+    width: 100px;
+    font-size: 20px; 
+    background: #6bb5fa;
+    border-radius: 10px;
+    border-color:#6bb5fa;
+    cursor: pointer;
+}
+
+.btn_send:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #2991f1;
+    color: #2991f1;
+    cursor:pointer;
+}
+
+.form_container{
+    animation:contact 0.65s; 
+} 
+@keyframes contact{ 
+    0%{transform:scale(.5)} 100%{transform:scale(1)} 
+}
+
+.input_email:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.379);
+}
+.input_name:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.379);
+}
+.input_lastName:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.379);
+}
+.input_message:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.379);
+}
+
+@media (max-width: 768px) {
+    .title_contact{  
+     left:50%;    
+    }
+    .form_container{
+        width: 400px;
+        height: 500px;
+        left:25%;
+    }
+    .name{
+        font-size: 18px;
+    }
+    .lastName{
+        font-size: 18px;
+    }
+    .email{
+        font-size: 18px;
+    }
+    .message{
+        font-size: 18px;
+    }
+    .input_name{
+        font-size: 14px;
+    } 
+    .input_lastName{
+        font-size: 14px;
+    }
+    .input_email{
+        font-size: 14px;
+    } 
+    .input_message{
+        font-size: 14px;
+    }
+    .btn_send{ 
+        font-size: 18px; 
+    }
+}

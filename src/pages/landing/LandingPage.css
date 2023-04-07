@@ -1,58 +1,135 @@
 *{
-    background-color: #A2D2FF;
-margin: 15px;
-}
-.container{
-    color: white;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
 }
-.container h1{
-    position: absolute;
-    top:37%;
-    width: 586px;
-    height: 48px;
-    font-size: 54px;
-    line-height: 65px;
+.landing{
+    width: 50%;
+    height: 100vh;
 }
-.container h2{  
+.container_h1{
     position: absolute;
-    top:48%;
-width: 530px;
-height: 35px;
-font-size: 50px;
-line-height: 61px;
+    top:32%;
+    font-size: 63px;
+    margin: 20px;
+   padding: 20px;
+   color:#6bb5fa;
 }
-.container h3{
+
+
+.container_h2{  
     position: absolute;
-    top: 30%;
-width: 188px;
-height: 30px;
-font-size: 32px;
-line-height: 39px;
+    top:45%;
+font-size: 53px;
+margin: 20px;
+padding: 20px;
+
+}
+.container_h3{
+    position: absolute;
+    top: 25%;
+font-size: 34px;
+margin: 20px;
+padding: 20px;
+
 }
 .btn{
 position: absolute;
 width: 114px;
 height: 37px;
-color: white;
-background: #0E273E;
+background: #6bb5fa;
 border-radius: 10px;
-border-color: #0E273E;
-text-transform: uppercase;
+border-color:#6bb5fa;
 cursor: pointer;
 top:65%;
-left:5.5%;
+left:3%;
+font-size: 18px;
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #2991f1;
+    color: #2991f1;
+    cursor:pointer;
 }
 
 .img{
-box-sizing: border-box;
 position: absolute;
-width: 450px;
-height: 427px;
-border-radius: 213px;
-left:55%;
-top:15%;
+width: 400px;
+height: 400px;
+left:60%;
+top:20%;
 }
+
+.container_h1, .container_h2, .container_h3, .btn, .img{
+    animation:landing 0.65s ; 
+} 
+@keyframes landing{ 
+    0%{
+        transform:scale(.5)
+    } 
+    100%{
+        transform:scale(1)
+    } 
+}
+
+
+.redes{
+    font-size: 30px;
+    display: flex;   
+    position: absolute;
+    top:70%;
+    left:0%;
+    color:#6bb5fa;
+
+}
+
+.item_menu{
+   list-style: none;
+    display: flex;
+}
+
+.item{
+   cursor: pointer;
+   padding: 0.3rem;
+}
+
+.item:hover{
+    padding: 0.2rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 768px) {
+.container_h1{
+  top:17%;
+  font-size: 60px;
+}
+.container_h2{  
+top:29%;
+}
+.container_h3{
+top:10%;
+}
+.btn{
+    top:60%;
+    left:20%;
+    }
+.img{
+width: 250px;
+height: 250px;
+left:45%;
+top:45%;
+}
+.redes{
+    top:65%;
+    left:15%;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
 

@@ -1,14 +1,16 @@
 import './App.css';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import LandingPage from './pages/landing/LandingPage';
+import All from './components/All/All';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
+  
   return (
-    <div >
-      <Routes>
-        <Route exact path='/' element= {<LandingPage/>} />
-    </Routes>
-    </div>
+      <div>
+        <Routes>
+          <Route exact path='/' element={<All/>} />
+        </Routes>
+     </div>
+ 
   );
 }
 

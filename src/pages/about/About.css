@@ -1,0 +1,122 @@
+.about{
+    width: 50%;
+    height: 100vh;
+}
+
+.title_about{  
+    position: relative;    
+    font-size: 80px;
+    left:80%;
+    height: 80px;
+}
+
+.container_text{
+    position: absolute;
+    width: 420px;
+    height: 400px;
+    left:48%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: 0.1px solid #d4d3d3;
+    border-radius: 2%;
+}
+		
+
+.container_text:hover {
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.379);
+  }
+
+.container_text{
+    animation:slide-right 0.4s linear both
+}
+@keyframes slide-right{
+    0%{
+        transform:translateX(0)
+    }
+    100%{
+        transform:translateX(100px)
+    }
+}
+  
+
+.text{
+    position: absolute;
+    font-size: 20px;
+    margin: 30px;
+    align-items: center;
+}
+
+.img_profile{
+position: absolute;
+width: 213px;
+height: 282px;
+left:24%;
+top:16%;
+border-radius: 2%;
+
+}
+.container_img{
+    position: relative;
+    width: 240px;
+    height: 300px;
+    left:20%;
+    top:12%;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #CB0980;
+    border-radius: 2%;
+}
+.container_img_one{
+    position: absolute;
+    width: 280px;
+    height: 320px;
+    left:14%;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #172D67;
+    border-radius: 2%;
+}
+.container_img:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.379);
+  }
+.container_img_one:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.379);
+}
+.img_profile:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.379);
+}
+
+.container_text, .container_img, .container_img_one{
+    animation:about 0.65s; 
+} 
+@keyframes about{ 
+    0%{transform:scale(.5)} 100%{transform:scale(1)} 
+}
+
+@media (max-width: 768px) {
+    .title_about{
+        left:55%;
+    }
+    .container_text{
+        width: 400px;
+        height: 380px;
+        left:40%;
+    }
+    .img_profile{
+        left:4%;
+        top:15%;
+        width: 200px;
+        height: 280px;        
+        }
+        .container_img{
+            left:4%;
+            top:10%;
+            width: 215px;
+            height: 280px;
+        }
+        .container_img_one{
+            left:8%;
+            width: 230px;
+            height: 280px;
+        }
+}

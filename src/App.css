@@ -1,5 +1,9 @@
-.App {
+
+ .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100% ;
 }
 
 .App-logo {
@@ -35,4 +39,12 @@
   to {
     transform: rotate(360deg);
   }
+} 
+.light{
+  background: rgb(255, 255, 255);
+  color:black;
+}
+  .dark{
+  background: rgb(29, 29, 29);
+   color: white;
 }
