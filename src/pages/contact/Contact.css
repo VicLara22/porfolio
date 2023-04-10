@@ -2,7 +2,32 @@
     font-family: 'Inter';
     font-style: normal;
 }
-.error{
+
+.error_name{
+    position: absolute;
+    left:24%;
+    top:5%;
+    color:red;
+    font-size:x-small;
+}
+.error_lastName{
+    position: absolute;
+    left:24%;
+    top:20%;
+    color:red;
+    font-size:x-small;
+}
+.error_email{
+    position: absolute;
+    left:20%;
+    top:34%;
+    color:red;
+    font-size:x-small;
+}
+.error_message{
+    position: absolute;
+    left:24%;
+    top:48%;
     color:red;
     font-size:x-small;
 }
@@ -34,6 +59,7 @@
  .form_container:hover {
     box-shadow: 0 12px 20px 0 rgba(0,0,0,0.379);
 }
+
 .name{
 font-size: 20px;
 left:5%;

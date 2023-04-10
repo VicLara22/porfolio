@@ -91,10 +91,10 @@ onChange={(e) => handleChange(e)}
 value={values.name}
  />
  {errors.name && (
-   <span className='error'>* {errors.name}</span>
+   <p className='error_name'>* {errors.name}</p>
  )}
 
-<label htmlFor='namlastName' className="lastName">Apellido</label>
+<label htmlFor='lastName' className="lastName">Apellido</label>
 <input 
 type='text'
 name='lastName'
@@ -104,7 +104,7 @@ onChange={(e) => handleChange(e)}
 value={values.lastName}
 />
 {errors.lastName && (
-   <span className='error'>* {errors.lastName}</span>
+   <p className='error_lastName'>* {errors.lastName}</p>
  )}
 <label htmlFor='email' className="email">Email</label>
 <input
@@ -116,18 +116,19 @@ onChange={(e) => handleChange(e)}
 value={values.email}
 />
 {errors.email && (
-   <span className='error'>* {errors.email}</span>
+   <p className='error_email'>* {errors.email}</p>
  )}
 <label htmlFor='message' className="message">Mensaje</label>
 <textarea 
 name="message"
+type='text'
 placeholder="Escriba su mensaje..."
 className="input_message"
 onChange={(e) => handleChange(e)}
 value={values.message}
 />
 {errors.message && (
-   <span className='error'>* {errors.message}</span>
+   <p className='error_message'>* {errors.message}</p>
  )}
 
   < button 
