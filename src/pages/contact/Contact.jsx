@@ -134,7 +134,7 @@ value={values.message}
   < button 
   type="submit" 
   className="btn_send" 
-  disabled={errors.name  || errors.lastName  || errors.email  || errors.message === '' ? true : false }>Enviar</button>
+  disabled={errors.name  || errors.lastName  || errors.email  || errors.message ? true : false }>Enviar</button>
  
        </form>
 
