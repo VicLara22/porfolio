@@ -3,9 +3,12 @@ import './Contact.css';
 import * as emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 import { Validacion } from "./Validacion";
+import { Navigate } from "react-router-dom";
 
 export default function Contact () {
   const form = useRef();
+      const history = Navigate()
+
 
   const [values, setValues] = useState({
     name: "",
@@ -66,6 +69,7 @@ export default function Contact () {
         });
       }
     });
+    history.push('/') 
   };
 
 
@@ -134,7 +138,7 @@ value={values.message}
   < button 
   type="submit" 
   className="btn_send" 
-  disabled={errors.name  || errors.lastName  || errors.email  || errors.message ? true : false }>Enviar</button>
+  disabled={errors.name  || errors.lastName  || errors.email  || errors.message === "" ? true : false }>Enviar</button>
  
        </form>
 
