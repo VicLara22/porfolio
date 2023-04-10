@@ -47,17 +47,34 @@
 @media (max-width: 768px) {
   .title_tech{  
      left:75%;
- }
-.container_tech_img{
+  }
+  .container_tech_img{
     width: 650px;
     height: 400px;
     left:8%;
- }
- .fila {
-  font-size: 126px;
+  }
+  .fila {
+    font-size: 126px;
+  }
+  .columna {
+    width: 33%;
+    margin: 0px;
+  }
 }
-.columna {
-  width: 33%;
-  margin: 0px;
-}
+@media screen and (max-width: 480px) {
+  .title_tech{
+    left:118%;
+    font-size: 40px;
+  }
+  .container_tech_img{
+    width: 600px;
+    height: 400px;
+    left:9%;
+  }
+  .fila {
+    font-size: 116px;
+  }
+  .columna {
+    width: 30%;
+  }
 }

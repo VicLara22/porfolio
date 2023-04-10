@@ -177,4 +177,34 @@
     font-size: 15px;
     top:71%;
 }
+}
+
+  @media screen and (max-width: 480px) {
+    .title_proyects{
+        left:118%;
+        font-size: 40px;
+    }
+    .container_proyects{
+        width: 560px;
+        height: 500px;
+        left:10%;
+    }
+    .container_proyects_pokemon_text{
+        width: 365px;
+        height: 180px;
+        left:30%;
+        top:5%;
+    }
+    .container_proyects_gojob_text{
+        width: 365px;
+        height: 190px;
+        left:30%;
+        top:51%;
+    }
+    .btn_github{
+        top:75%;
+    }
+    .btn_visitar{
+        top:75%;
+    }
   }

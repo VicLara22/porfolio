@@ -34,7 +34,7 @@ z-index:1;
     display: none;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .nav_items{
         position:absolute;
         top: 60px;
@@ -75,4 +75,9 @@ z-index:1;
     .nav_toggle.open > span:nth-child(3){
         transform: rotate(-45deg) translate(-5px, 1px);
     }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 480) {
+    
 }
