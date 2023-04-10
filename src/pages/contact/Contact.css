@@ -145,40 +145,24 @@ position: absolute;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.379);
 }
 
-@media (max-width: 768px) {
-    .title_contact{  
-     left:50%;    
+
+@media screen and (max-width: 768px) {
+    .title_contact{
+        left:80%;
+        font-size: 40px;
     }
-    .form_container{
-        width: 400px;
-        height: 500px;
-        left:25%;
+}
+
+@media screen and (max-width: 480px) {
+    .title_contact{
+        left:125%;
     }
-    .name{
-        font-size: 18px;
+}
+
+@media screen and (max-width: 300px) {
+    .title_contact{
+        left:125%;
+        font-size: 30px;
     }
-    .lastName{
-        font-size: 18px;
-    }
-    .email{
-        font-size: 18px;
-    }
-    .message{
-        font-size: 18px;
-    }
-    .input_name{
-        font-size: 14px;
-    } 
-    .input_lastName{
-        font-size: 14px;
-    }
-    .input_email{
-        font-size: 14px;
-    } 
-    .input_message{
-        font-size: 14px;
-    }
-    .btn_send{ 
-        font-size: 18px; 
-    }
+
 }

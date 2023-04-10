@@ -152,7 +152,34 @@ top:45%;
         top:69%;
     }
 }
-
+@media screen and (max-width: 300px) {
+    .container_h1{
+        top:17%;
+        font-size: 20px;
+    }
+    .container_h2{  
+       top:26%;
+       font-size: 18px;
+    }
+    .container_h3{
+        top:10%;
+        font-size: 10px;
+    }
+    .btn{
+        top:68%;
+        left:30%;
+    }
+    .img{
+      left:82%;
+      top:50%;
+      width: 290px;
+      height: 290px;
+    }
+    .redes{
+        left:16%;
+        top:70%;
+    }
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
