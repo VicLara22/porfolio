@@ -210,22 +210,22 @@
   }
   @media screen and (max-width: 360px) {
     .title_proyects{
-        left:70%;
+        left:58%;
    
     }
     .container_proyects{
         left:2%;
-        width: 310px;
+        width: 345px;
         height: 480px;
     }
     .container_proyects_pokemon_text{
-        width: 215px;
+        width: 237px;
         height: 200px;
         left:27%;
         top:5%;
     }
     .container_proyects_gojob_text{
-        width: 215px;
+        width: 237px;
         height: 210px;
         left:27%;
         top:51%;

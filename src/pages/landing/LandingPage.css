@@ -79,7 +79,8 @@ top:20%;
     top:70%;
     left:0%;
     color:#6bb5fa;
-
+text-decoration: none;
+list-style: none;
 }
 
 .item_menu{

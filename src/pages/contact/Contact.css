@@ -135,7 +135,7 @@ position: absolute;
 .btn_send{
     position: absolute;
     top: 85%;
-    left: 38%;
+    left: 37%;
     width: 100px;
     font-size: 20px; 
     background: #6bb5fa;
@@ -188,7 +188,7 @@ position: absolute;
 
 @media screen and (max-width: 360px) {
     .title_contact{
-        left:45%;
+        left:42%;
     }
     .form_container{
         width: 332px;
@@ -226,5 +226,21 @@ position: absolute;
         width: 298px;
         height: 120px;
         font-size: 14px;
+    }
+    .error_name{
+        left:25%;
+        top:4%;
+    }
+    .error_lastName{
+        left:25%;
+        top:19%;
+    }
+    .error_email{
+        left:21%;
+        top:33%;
+    }
+    .error_message{
+        left:25%;
+        top:47%;
     }
 }
