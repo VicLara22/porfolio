@@ -208,10 +208,16 @@
         top:75%;
     }
   }
+  @media screen and (max-width: 375px) {
+    .container_proyects{
+        left:3.5%;
+        width: 566px;
+        height: 480px;
+    }
+}
   @media screen and (max-width: 360px) {
     .title_proyects{
         left:55%;
-   
     }
     .container_proyects{
         left:2%;

@@ -187,8 +187,11 @@ position: absolute;
 }
 @media screen and (max-width: 375px) {
     .title_contact{
-        left:115%;
+        left:105%;
         font-size: 40px;
+    }
+    .form_container{
+        left:27%;
     }
 }
 
