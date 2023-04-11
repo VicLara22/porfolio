@@ -78,6 +78,17 @@
     width: 30%;
   }
 }
+@media screen and (max-width: 375px) {
+  .title_tech{
+    left:140%;
+  }
+  .container_tech_img{
+    left:3%;
+    width: 592px;
+    height: 400px;
+  }
+ 
+}
 @media screen and (max-width: 360px) {
   .title_tech{
     left:75%;

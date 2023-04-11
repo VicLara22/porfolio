@@ -135,7 +135,7 @@ position: absolute;
 .btn_send{
     position: absolute;
     top: 85%;
-    left: 35%;
+    left: 36%;
     width: 100px;
     font-size: 20px; 
     background: #6bb5fa;
@@ -185,6 +185,13 @@ position: absolute;
         font-size: 40px;
     }
 }
+@media screen and (max-width: 375px) {
+    .title_contact{
+        left:115%;
+        font-size: 40px;
+    }
+}
+
 
 @media screen and (max-width: 360px) {
     .title_contact{

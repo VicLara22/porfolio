@@ -124,6 +124,37 @@ border-radius: 2%;
     }
 }
 
+@media screen and (max-width: 375px) {
+    .title_about{
+        left:120%;
+        font-size: 40px;
+    }
+    .container_text{
+        top:-40%;
+        left:8%;
+        width: 580px;
+        height: 245px;
+    }
+    .img_profile{
+        width: 125px;
+        height: 182px;
+        left:30%;
+        top:14%;        
+    }
+    .container_img{
+        width: 140px;
+        height: 200px;
+        left:28%;
+        top:12%;
+    }
+    .container_img_one{
+        width: 180px;
+        height: 220px;
+        top:36%;
+        left:100%;
+    }
+}
+
 @media screen and (max-width: 360px) {
     .title_about{
         left:68%;

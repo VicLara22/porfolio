@@ -152,6 +152,41 @@ top:45%;
         top:69%;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .container_h1{
+        top:32%;
+        font-size: 30px;
+    }
+    .container_h2{  
+       top:40%;
+       font-size: 29px;
+    }
+    .container_h3{
+        top:25%;
+        font-size: 25px;
+    }
+    .btn{
+        top:55%;
+left:10%;
+        font-size: 20px;
+        width: 100px;
+        height: 32px;
+    }
+    .img{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left:82%;
+        top:25%;
+        }
+    .redes{
+        left:0%;
+        top:60%;
+        font-size: 22px;
+    }
+}
+
 @media screen and (max-width: 360px) {
     .container_h1{
         top:17%;
