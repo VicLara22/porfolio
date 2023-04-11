@@ -3,11 +3,9 @@ import './Contact.css';
 import * as emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 import { Validacion } from "./Validacion";
-import { Navigate } from "react-router-dom";
 
 export default function Contact () {
   const form = useRef();
-      const history = Navigate()
 
 
   const [values, setValues] = useState({
@@ -69,7 +67,6 @@ export default function Contact () {
         });
       }
     });
-    history.push('/') 
   };
 
 

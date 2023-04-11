@@ -96,7 +96,6 @@ top:20%;
     padding: 0.2rem;
 
 }
-/* Medium devices (landscape tablets, 768px and up) */
 
 @media screen and (max-width: 768px) {
 .container_h1{
@@ -152,41 +151,40 @@ top:45%;
         top:69%;
     }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 360px) {
     .container_h1{
         top:17%;
-        font-size: 20px;
+        font-size: 28px;
     }
     .container_h2{  
        top:26%;
-       font-size: 18px;
+       font-size: 24px;
     }
     .container_h3{
         top:10%;
-        font-size: 10px;
+        font-size: 20px;
     }
     .btn{
-        top:68%;
-        left:30%;
+        top:41%;
+        left:10%;
+        font-size: 12px;
+        width: 90px;
+        height: 27px;
     }
     .img{
-      left:82%;
-      top:50%;
-      width: 290px;
-      height: 290px;
+      left:18%;
+      top:52%;
+      width: 240px;
+      height: 240px;
     }
     .redes{
-        left:16%;
-        top:70%;
+        left:-1%;
+        top:45%;
+        font-size: 20px;
+
     }
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-
-
-
-/* Large devices (laptops/desktops, 992px and up) */
 
 

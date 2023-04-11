@@ -182,13 +182,49 @@ position: absolute;
 @media screen and (max-width: 480px) {
     .title_contact{
         left:125%;
+        font-size: 40px;
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 360px) {
     .title_contact{
-        left:125%;
-        font-size: 30px;
+        left:45%;
     }
-
+    .form_container{
+        width: 332px;
+        height: 500px;
+        left:4%;
+    }
+    .name{
+        font-size: 18px;
+    }
+    .input_name{
+        width: 298px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .lastName{
+        font-size: 18px;
+    }
+    .input_lastName{
+        width: 298px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .email{
+        font-size: 18px;
+    }
+    .input_email{
+        width: 298px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .message{
+        font-size: 18px;
+    }
+    .input_message{
+        width: 298px;
+        height: 120px;
+        font-size: 14px;
+    }
 }

@@ -208,3 +208,59 @@
         top:75%;
     }
   }
+  @media screen and (max-width: 360px) {
+    .title_proyects{
+        left:70%;
+   
+    }
+    .container_proyects{
+        left:2%;
+        width: 310px;
+        height: 480px;
+    }
+    .container_proyects_pokemon_text{
+        width: 215px;
+        height: 200px;
+        left:27%;
+        top:5%;
+    }
+    .container_proyects_gojob_text{
+        width: 215px;
+        height: 210px;
+        left:27%;
+        top:51%;
+    }
+    .img_pokemon{
+    width: 100px;
+    height:60px;
+    left:0%;
+    top: 20%;
+     }
+.img_gojob{
+    width: 100px;
+    height: 50px;
+    left:1%;
+    top: 65%;   
+    }
+.text{
+    font-size: 12px;
+}
+.title{
+    font-size: 15px;
+
+}
+    .btn_github{
+        top:85%;
+        width: 80px;
+        height: 25px;
+        font-size: 12px;
+        left:10%;
+    }
+    .btn_visitar{
+        top:85%;
+        width: 80px;
+        height: 25px;
+        font-size: 12px;
+        left:55%;
+    }
+  }
