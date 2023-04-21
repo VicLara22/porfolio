@@ -31,10 +31,10 @@
 }
 
 @media(max-width: 425px) {
-    .container-proyects-title {
-
-        width: 140%;
-    }
+    .container-proyects-title{
+        flex-direction: column;
+            margin-left: 30px;
+      }
     
     .container-proyects-title h1 {
         font-size: 36px;

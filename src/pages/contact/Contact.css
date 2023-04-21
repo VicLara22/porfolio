@@ -164,18 +164,18 @@ form:hover {
 @media screen and (max-width: 425px) {
     .container-contact-title {
         flex-direction: column;
-        margin-left: 100px;
+        margin-left: 90px;
     }
     
     .container-contact-title h1 {
-        font-size: 36px;
+        font-size: 34px;
     }
     .container-form{
         text-align: center;
         align-items: center;
         display: inline-flex;
         justify-content: center;
-        margin-left: 20px;
+        margin-left: 0px;
     }
     
     form {

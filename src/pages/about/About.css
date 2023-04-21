@@ -105,9 +105,16 @@
 }
 
  @media(max-width: 425px) {
+    .container-title h1 {
+        font-size: 34px;
+    
+    }
+    .container-title{
+        flex-direction: column;
+        margin-left: 70px;
+    }
     .container-divs{
         display: flex;
-        width: 120%;
     }
    
     .container-img-about {
@@ -125,7 +132,7 @@
 
     .container-text {
         width: 420px;
-        height: 250px;
+        height: 280px;
         align-items: center;
         justify-content: center;
         text-align: center; 
@@ -134,7 +141,15 @@
 }
 
 @media(max-width: 320px) {
-   
+    .container-title {
+        
+        margin-top: 150px;
+    
+    }
+    .container-title h1 {
+        font-size: 30px;
+    
+    }
     .container-divs{
         display: flex;
     }

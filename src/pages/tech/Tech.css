@@ -75,11 +75,13 @@
 
 }
 @media (max-width: 425px) {
+  .container-title-t{
+    flex-direction: column;
+  }
  
   .container-divs-t {
-    display: block;
-    text-align: center;
-    margin: 20px 50px 0px 0px;
+    margin: 0px 0px 0px 40px;
+
   }
   .container_tech_img{
     width: 460px;
