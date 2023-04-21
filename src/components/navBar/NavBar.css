@@ -1,83 +1,87 @@
-.header{
-    position:fixed;
-    width: 100%;
-background-color: aqua;
-z-index:1;
+*{
+    padding: 0px;
+    margin: 0px;
 }
-.navbar{
-   background: rgba(29, 29, 29, 0.651);
-  height: 60px;
+header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(6, 92, 92, 0.89);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 }
-.nav_logo{
+
+.dark-mode {
     font-weight: bold;
     font-size: 20px;
-    margin: 15px;
+    font-weight: 200;
+    padding: 0 20px;
 }
-.nav_items a{
-    margin: 8px;
+
+.menu a {
     color: #6bb5fa;
-    position: relative;
     text-decoration: none;
     cursor: pointer;
-    font-size: 20px;
-
+    padding: 0 10px;
+    text-transform: uppercase;
+    transition: 0.5s;
 }
-.nav_items a:hover{
-    border-radius: 5px;
-    font-size: 22px;
+
+.mostrar-menu,
+.esconder-menu{
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+
+.mostrar-menu{
+    order: 1;
+}
+.menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover{
     color: #CB0980;
 }
-.nav_toggle{
+
+
+#check{
     display: none;
 }
-
-@media screen and (max-width: 768px) {
-    .nav_items{
-        position:absolute;
-        top: 60px;
-        left: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+@media(max-width: 768px) {
+    .mostrar-menu,
+    .esconder-menu{
+        display: block;
+    }
+    .menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
         width: 100%;
         height: 100vh;
-        transform: translateX(-100%);
-        transition: 0.3s ease all;
-        background: rgba(29, 29, 29, 0.651);
+        transition: 0.8s;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        background-color: rgb(6, 92, 92);
     }
- 
-    .nav_items.open{
-        transform: translateX(0) !important
+    .menu a{
+        display: block; 
+        padding: 10px;
     }
-    .nav_toggle{
-        display: flex !important;
-        flex-direction: column;                
-        margin: 15px;
+    .esconder-menu{  
+        position: absolute;
+        top: 5%;
+        right: 5%;
     }
-    .nav_toggle span{
-        width: 30px;
-        height: 4px;
-        background: white;
-        margin-bottom: 5px;
-        border-radius: 2px;             
-        transform-origin: 5px 0px;
-        transition: all 0.2s linear;
+    .mostrar-menu{  
+        position: absolute;
+        right: 5%;
     }
-    .nav_toggle.open > span{
-        transform: rotate(45deg) translate(0px, 0px);
+  
+    #check:checked ~ .menu{ 
+        right: 0;
     }
-    .nav_toggle.open > span:nth-child(2){
-        display: none;
-    }
-    .nav_toggle.open > span:nth-child(3){
-        transform: rotate(-45deg) translate(-5px, 1px);
-    }
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 480) {
-    
 }

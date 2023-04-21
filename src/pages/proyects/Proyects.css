@@ -1,272 +1,42 @@
-*{
-    font-family: 'Inter';
-    font-style: normal;
-}
-.proyects{
-    width: 50%;
-    height: 100vh;
-}
-.container_proyects_title{
-    position: relative;
+#proyects {
+    padding: 0 50px;
+    height: 140vh;
 
 }
-.title_proyects{  
-    position: relative;
-     font-size: 80px;
-     left:65%;
- }
 
- .container_proyects{
-    position: absolute;
-    width: 800px;
-    height: 539px;
-    left:20%;
-    transition: 0.3s;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border: 0.1px solid #d4d3d3;
-    border-radius: 2%;
- }
- .container_proyects:hover {
-    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.379);
-  }
-
- .img_pokemon{
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    left:2%;
-    top: 5%;
- }
- .container_proyects_pokemon_text{
-    position: absolute;
-    width: 500px;
-    height: 200px;
-    left:35%;
-    top:5%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border: 0.1px solid #d4d3d3;
-    border-radius: 2%;
- }
- .container_proyects_gojob_text{
-    position: absolute;
-    width: 500px;
-    height: 200px;
-    left:35%;
-    top:55%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border: 0.1px solid #d4d3d3;
-    border-radius: 2%;
- }
-.img_gojob{
-    position: absolute;
-    width: 220px;
-    height: 100px;
-    left:4%;
-    top: 65%;   
-}
-.title{
-    position: absolute;
-    font-size: 22px;
-    top:-4%;
-    left:6%;
-}
-.text{
-    position: absolute;
-    font-size: 18px;
-    text-align: justify;
-    top:4%;
+.container-proyects-title {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    width: 100%;
 }
 
-.btn_github{
-    position: absolute;
-    width: 114px;
-    height: 37px;
-    background: #6bb5fa;
-    border-radius: 10px;
-    border-color:#6bb5fa;
-    cursor: pointer;
-    top:74%;
-    left:20%;
-    font-size: 20px;
-}
-.btn_github:hover,.btn_visitar:hover{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid #2991f1;
-    color: #2991f1;
-    cursor:pointer;
+.container-proyects-title h1 {
+    font-size: 50px;
 }
 
-.btn_visitar{
-    position: absolute;
-    width: 114px;
-    height: 37px;
-    background: #6bb5fa;
-    border-radius: 10px;
-    border-color:#6bb5fa;
-    cursor: pointer;
-    font-size: 20px;
-    top:74%;
-    left:55%;
-}
-.container_proyects, .container_proyects_gojob_text, .container_proyects_pokemon_text{
-    animation:landing 0.65s; 
-} 
-@keyframes landing{ 
-    0%{transform:scale(.5)} 100%{transform:scale(1)} 
+.container-divs-p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+    
 }
 
-.container_proyects_gojob_text:hover {
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.379);
-}
-  .container_proyects_pokemon_text:hover {
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.379);
+
+.container:hover {
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.379);
 }
 
-@media (max-width: 768px) {
-.title_proyects{  
-    font-size: 80px;
-    left:55%;
-     }
-.container_proyects{
-    width: 650px;
-    height: 350px;
-    left:8%;
-    }
-.container_proyects_pokemon_text{
-    width: 474px;
-    height: 150px;
-    left:25%;
-    top:4%;
-}
-.container_proyects_gojob_text{
-    width: 474px;
-    height: 150px;
-    left:25%;
-    top:51%;
-     }
-.img_pokemon{
-    width: 200px;
-    height: 120px;
-    left:0%;
-    top: 10%;
-     }
-.img_gojob{
-    width: 150px;
-    height: 80px;
-    left:1%;
-    top: 65%;   
-    }
-.text{
-    font-size: 15px;
-}
-.title{
-    font-size: 18px;
+@media(max-width: 425px) {
+    .container-proyects-title {
 
-}
-.btn_github{
-    width: 104px;
-    height: 27px;
-    top:71%;
-    font-size: 15px;
-}
-.btn_visitar{
-    width: 104px;
-    height: 27px;
-    font-size: 15px;
-    top:71%;
-}
-}
-
-  @media screen and (max-width: 480px) {
-    .title_proyects{
-        left:118%;
-        font-size: 40px;
+        width: 140%;
     }
-    .container_proyects{
-        width: 560px;
-        height: 500px;
-        left:10%;
-    }
-    .container_proyects_pokemon_text{
-        width: 365px;
-        height: 180px;
-        left:30%;
-        top:5%;
-    }
-    .container_proyects_gojob_text{
-        width: 365px;
-        height: 190px;
-        left:30%;
-        top:51%;
-    }
-    .btn_github{
-        top:75%;
-    }
-    .btn_visitar{
-        top:75%;
-    }
-  }
-  @media screen and (max-width: 375px) {
-    .container_proyects{
-        left:3.5%;
-        width: 566px;
-        height: 480px;
+    
+    .container-proyects-title h1 {
+        font-size: 36px;
     }
 }
-  @media screen and (max-width: 360px) {
-    .title_proyects{
-        left:55%;
-    }
-    .container_proyects{
-        left:2%;
-        width: 345px;
-        height: 480px;
-    }
-    .container_proyects_pokemon_text{
-        width: 237px;
-        height: 200px;
-        left:27%;
-        top:5%;
-    }
-    .container_proyects_gojob_text{
-        width: 237px;
-        height: 210px;
-        left:27%;
-        top:51%;
-    }
-    .img_pokemon{
-    width: 100px;
-    height:60px;
-    left:0%;
-    top: 20%;
-     }
-.img_gojob{
-    width: 100px;
-    height: 50px;
-    left:1%;
-    top: 65%;   
-    }
-.text{
-    font-size: 12px;
-}
-.title{
-    font-size: 15px;
-
-}
-    .btn_github{
-        top:85%;
-        width: 80px;
-        height: 25px;
-        font-size: 12px;
-        left:10%;
-    }
-    .btn_visitar{
-        top:85%;
-        width: 80px;
-        height: 25px;
-        font-size: 12px;
-        left:55%;
-    }
-  }
