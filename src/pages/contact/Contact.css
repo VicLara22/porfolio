@@ -1,33 +1,9 @@
-* {
-    font-family: 'Inter';
-    font-style: normal;
-}
 
 #contact {
     padding: 0 50px;
-    height: 100vh;
+    height: 90vh;
 }
 
-.error_name {
-    color: red;
-    font-size: x-small;
-}
-
-.error_lastName {
-    color: red;
-    font-size: x-small;
-}
-
-.error_email {
-    color: red;
-    font-size: x-small;
-    
-}
-
-.error_message {
-    color: red;
-    font-size: x-small;
-}
 
 .container-contact-title {
     text-align: center;
@@ -145,6 +121,26 @@ form:hover {
     cursor: pointer;
 }
 
+.error_name {
+    color: red;
+    font-size: x-small;
+}
+
+.error_lastName {
+    color: red;
+    font-size: x-small;
+}
+
+.error_email {
+    color: red;
+    font-size: x-small;
+    
+}
+
+.error_message {
+    color: red;
+    font-size: x-small;
+}
 
 
 .emailinput:hover {

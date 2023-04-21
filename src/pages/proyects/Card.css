@@ -60,12 +60,6 @@
     font-size: 20px;
     margin: 0px 40px 0px 0px;
 }
-.btn-github:hover,.btn-visitar:hover{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid #2991f1;
-    color: #2991f1;
-    cursor:pointer;
-}
 
 .btn-visitar{
     width: 114px;
@@ -76,6 +70,12 @@
     cursor: pointer;
     font-size: 20px;
     margin: 0px 55px 0px 0px;
+}
+.btn-github:hover,.btn-visitar:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #2991f1;
+    color: #2991f1;
+    cursor:pointer;
 }
 
 
@@ -89,26 +89,24 @@
 @media (max-width: 768px) {
     .container-proyects {
         width: 340px;
-        height: 410px;
+        height: 290px;
     }
     .container-img-p {
-        width: 250px;
-        height: 150px; 
-        margin: 0px 80px 0px 0px;
-        
-        
+        width: 160px;
+        height: 80px; 
+        margin: 0px 80px 0px 0px;   
     }
      .container-img-p img{
-         width: 250px;
-        height: 150px;
+         width: 160px;
+        height: 80px;
      }
      .container-proyects-text{
-        width: 300px;
-        height: 150px;
-        margin: 30px 90px 20px 0px;
+        width: 320px;
+        height: 100px;
+        margin: 10px 100px 20px 0px;
      }
      .container-proyects-text h1{
-        font-size: 18px;
+        font-size: 15px;
     }
     .container-proyects-text h2{
         font-size: 15px;
@@ -119,22 +117,30 @@
         justify-content: center;
         margin: 0px 0px 0px 0px;
     }
+    .btn-github{
+        width: 100px;
+        height: 37px;
+        font-size: 15px;
+    }
+    
     .btn-visitar{
+        width: 100px;
+        height: 37px;
+        font-size: 15px;
         margin: 0px 0px 0px 0px;
     }
+    
 }
 @media (max-width: 425px) {
     .container-proyects {
         margin: 15px 0px 0px 99px;
     }
     .container-img-p img{
-        width: 250px;
-       height: 150px;
+   
        margin: 0px 0px 0px -80px;
     }
     .container-proyects-text{
-       width: 300px;
-       height: 150px;
+  
        margin: 30px 170px 20px 0px;
     }
     .container-divs-p {
