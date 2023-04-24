@@ -19,8 +19,8 @@
 .container-divs {
     display: inline-flex;
     justify-content: space-evenly;
-    margin: 0px 50px 0px 50px;
-    width: 100%;
+    margin: 20px 50px 0px 50px;
+    width: 90%;
 }
 
 .container-img-about {
@@ -135,12 +135,25 @@
         align-items: center;
         justify-content: center;
         text-align: center; 
+        margin: 30px 0px 0px 0px;
+
     }
 
 }
 
+@media(max-width: 375px) {
+    .container-text {
+        width: 370px;
+        height: 300px;
+        margin: 30px -42px 0px 0px;
+    }
+   
+} 
+
 @media(max-width: 320px) {
-    
+    .container-title{
+        margin-left: 210px;
+    }
     .container-title h1 {
         font-size: 40px;
  
@@ -149,7 +162,6 @@
         width: 160px;
         height: 220px;
     }
-
     .container-img-about img {
         width: 140px;
         height: 200px;
@@ -157,8 +169,7 @@
     .container-text {
         width: 370px;
         height: 300px;
-        margin: 30px -35px 0px 0px;
+        margin: 30px -85px 0px 0px;
     }
    
-
 } 

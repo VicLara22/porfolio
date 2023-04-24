@@ -1,7 +1,7 @@
 
 #contact {
     padding: 0 50px;
-    height: 90vh;
+    height: 150vh;
 }
 
 
@@ -164,7 +164,7 @@ form:hover {
 @media screen and (max-width: 425px) {
     .container-contact-title {
         flex-direction: column;
-        margin-left: 90px;
+        margin-left: 70px;
     }
     
     .container-contact-title h1 {
@@ -177,19 +177,31 @@ form:hover {
         justify-content: center;
         margin-left: 0px;
     }
-    
     form {
         display: inline-flex;
         flex-direction: column;
+        margin-left: -15px;
+
     }
 }
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 425px) {
+    form {
+        margin-left: -8px;
+    }
+}
+@media screen and (max-width: 375px) {
     .container-contact-title {
         margin-left: 100px;
     }
+}
+@media screen and (max-width: 320px) {
+    .container-contact-title {
+        margin-left: 120px;
+    }
     form {
-       margin-left: -20px;
+       margin-left: -10px;
     }
 }
 

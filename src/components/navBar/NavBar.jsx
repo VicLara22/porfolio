@@ -14,6 +14,7 @@ export default function NavBar (){
             <a><Link to='about' spy={true} smooth={true} offset={-90} duration={500}>Sobre mí</Link></a>
             <a><Link to='tech' spy={true} smooth={true} offset={-90} duration={500}>Skills</Link></a>
             <a><Link to='proyects' spy={true} smooth={true} offset={-90} duration={500}>Proyectos</Link> </a>
+            <a><Link to='downloads' spy={true} smooth={true} offset={-90} duration={500}>CV</Link></a>
             <a><Link to='contact' spy={true} smooth={true} offset={-90} duration={500}>Contacto</Link></a>
         <label for="check" className="esconder-menu"><RxCross1/></label>
       </nav>

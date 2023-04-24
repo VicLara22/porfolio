@@ -5,7 +5,8 @@ import LandingPage from "../../pages/landing/LandingPage";
 import Proyects from "../../pages/proyects/Proyects";
 import Tech from "../../pages/tech/Tech";
 import NavBar from "../navBar/NavBar";
-
+import Footer from "../../pages/footer/Footer";
+import Downloads from "../../pages/downloads/Downloads"
 export default function All () {
     return (
         <div>
@@ -14,7 +15,9 @@ export default function All () {
             <About/>
             <Tech/>
             <Proyects/>
+            <Downloads/>
             <Contact/>
+            <Footer/>
         </div>
     )
 }

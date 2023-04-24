@@ -1,7 +1,6 @@
 import React from "react";
 import './LandingPage.css';
 import { Link } from 'react-scroll';
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 
 export default function LandingPage() {
   return (
@@ -13,35 +12,7 @@ export default function LandingPage() {
       <Link to='about' spy={true} smooth={true} offset={-70} duration={500}>
           <button className="btn" >Saber más</button>
         </Link>
-        <ul>
-          <li>
-            <a
-              href="https://twitter.com/VicLara_22/"
-              target="_blank"
-              rel="noopener"
-            >
-              <AiFillTwitterCircle />
-            </a>
-          </li>
-          <li >
-            <a
-              href="https://github.com/VicLara22"
-              target="_blank"
-              rel="noopener"
-            >
-              <AiFillGithub />
-            </a>
-          </li>
-          <li >
-            <a
-              href="https://www.linkedin.com/in/laravictoriamoyano/"
-              target="_blank"
-              rel="noopener"
-            >
-              <AiFillLinkedin />
-            </a>
-          </li>
-        </ul>
+       
       </div>
        <div className="container-img">
         <lottie-player

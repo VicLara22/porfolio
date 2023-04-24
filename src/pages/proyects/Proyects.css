@@ -22,7 +22,7 @@
     text-align: center;
     align-items: center;
     margin: 50px 0px 0px 0px;
-    
+
 }
 
 
@@ -31,12 +31,25 @@
 }
 
 @media(max-width: 425px) {
-    .container-proyects-title{
+    .container-proyects-title {
         flex-direction: column;
-            margin-left: 70px;
-      }
-    
+        margin-left: 30px;
+    }
+
     .container-proyects-title h1 {
         font-size: 36px;
     }
+}
+
+@media(max-width: 375px) {
+    .container-proyects-title {
+        margin-left: 70px;
+    }
+
+}
+@media(max-width: 320px) {
+    .container-proyects-title {
+        margin-left: 100px;
+    }
+
 }

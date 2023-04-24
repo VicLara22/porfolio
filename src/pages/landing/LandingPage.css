@@ -33,24 +33,6 @@
     font-size: 35px;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    font-size: 30px;
-    padding: 10px 0px;
-}
-
-li {
-    cursor: pointer;
-    padding: 0.3rem;
-}
-
-li:hover {
-    padding: 0.2rem;
-
-}
-
-
 .btn {
     width: 130px;
     background: #6bb5fa;
@@ -101,9 +83,6 @@ li:hover {
         width: 300px;
     }
 
-    ul {
-        font-size: 25px;
-    }
 }
 
 @media(max-width: 425px) {
@@ -122,10 +101,16 @@ li:hover {
         display: block;
     }
 }
+@media(max-width: 425px) {
+    .container-portada {
+        padding: 100px 0px 0px 60px;
+    }
+
+}
 
 @media(max-width: 320px) {
     .container-portada {
-        padding: 100px 0px 0px 75px;
+        padding: 100px 0px 0px 80px;
     }
     .container-portada h1 {
         font-size: 30px;
