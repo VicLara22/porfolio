@@ -32,15 +32,7 @@ export default function Footer() {
             <AiFillLinkedin />
           </a>
         </li>
-        <li >
-          <a
-            href="https://www.linkedin.com/in/laravictoriamoyano/"
-            target="_blank"
-            rel="noopener"
-          >
-            <AiFillLinkedin />
-          </a>
-        </li>
+        
       </ul>
       <p>&copy;2023 Lara Moyano</p>
     </footer>
