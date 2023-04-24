@@ -110,7 +110,6 @@
     
     }
     .container-title{
-        flex-direction: column;
         margin-left: 70px;
     }
     .container-divs{
@@ -141,17 +140,24 @@
 }
 
 @media(max-width: 320px) {
-    .container-title {
-        
-        margin-top: 150px;
     
-    }
     .container-title h1 {
-        font-size: 30px;
-    
+        font-size: 40px;
+ 
     }
-    .container-divs{
-        display: flex;
+    .container-img-about {
+        width: 160px;
+        height: 220px;
+    }
+
+    .container-img-about img {
+        width: 140px;
+        height: 200px;
+    }
+    .container-text {
+        width: 370px;
+        height: 300px;
+        margin: 30px -35px 0px 0px;
     }
    
 

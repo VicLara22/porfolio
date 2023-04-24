@@ -184,6 +184,15 @@ form:hover {
     }
 }
 
+@media screen and (max-width: 320px) {
+    .container-contact-title {
+        margin-left: 100px;
+    }
+    form {
+       margin-left: -20px;
+    }
+}
+
 
 
 

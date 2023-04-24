@@ -33,7 +33,7 @@
 @media(max-width: 425px) {
     .container-proyects-title{
         flex-direction: column;
-            margin-left: 30px;
+            margin-left: 70px;
       }
     
     .container-proyects-title h1 {

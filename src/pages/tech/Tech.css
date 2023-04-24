@@ -78,7 +78,6 @@
   .container-title-t{
     flex-direction: column;
   }
- 
   .container-divs-t {
     margin: 0px 0px 0px 40px;
 
@@ -90,6 +89,23 @@
   .fila {
     font-size: 86px;
   }
+}
+@media (max-width: 320px) {
+  
+.container-title h1{  
+  font-size: 40px;
+  margin: 0px 0px 0px 70px;
 
+ }
+  .container-divs-t {
+    margin: 0px 0px 0px 68px;
 
+  }
+  .container_tech_img{
+    width: 420px;
+    height: 300px;
+  }
+  .fila {
+    font-size: 80px;
+  }
 }

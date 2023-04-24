@@ -146,4 +146,10 @@
     }
     
 }
+@media (max-width:320px){
+    .container-divs-p {
+        
+  margin: 0px 0px 0px 75px;
+    }
+}
 

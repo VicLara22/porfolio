@@ -115,10 +115,39 @@ li:hover {
     }
 
     .container-img {
-        height: 280px;
-        width: 280px;
+        height: 300px;
+        width: 300px;
         left: 25%;
-        top: 50%;
+        top: 48%;
+        display: block;
+    }
+}
+
+@media(max-width: 320px) {
+    .container-portada {
+        padding: 100px 0px 0px 75px;
+    }
+    .container-portada h1 {
+        font-size: 30px;
+    }
+
+    .container-portada h2 {
+        font-size: 24px;
+    }
+
+    .container-portada h3 {
+        font-size: 19px;
+    }
+    .btn{
+font-size: 15px;
+    }
+
+
+    .container-img {
+        height: 300px;
+        width: 300px;
+        left: 25%;
+        top: 48%;
         display: block;
     }
 }
