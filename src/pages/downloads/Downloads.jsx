@@ -1,5 +1,5 @@
 import React from "react";
-import downloadsCV from '../downloads/downloads/CV_LARA_MOYANO_FULL_STACK_DEVELOPER.pdf';
+import downloadsCV from '../downloads/downloads/CV Lara Victoria Moyano -Full Stack Developer.pdf';
 import './Downloads.css'
 
 export default function Downloads (){
