@@ -1,5 +1,5 @@
 import React from "react";
-import downloadsCV from '../downloads/downloads/CV Lara Victoria Moyano -Full Stack Developer.pdf';
+import downloadsCV from '../downloads/downloads/CV Lara Moyano - Full Stack Developer.pdf';
 import './Downloads.css'
 
 export default function Downloads (){
@@ -8,7 +8,7 @@ export default function Downloads (){
             <h1>Descargar Curriculum Vitae</h1>
             <div className="container-divs-d">
             <div className="container-downloads-p">
-            <p>Si quieres saber más sobre mí dejo a disposición mi CV, dandole click al siguiente botón se abrirá una nueva pestaña donde podrás ver el PDF</p>
+            <p>Si queres saber más sobre mí dejo a disposición mi CV, dandole click al siguiente botón se abrirá una nueva pestaña donde podrás ver el PDF</p>
             </div>
             <div className="container-btn-d"></div>
             <a href={downloadsCV} target='_blacnk' className="btn-d">Descargar CV</a>
