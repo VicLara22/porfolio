@@ -4,7 +4,7 @@
 }
 header {
     position: fixed;
-    height: 80px;
+    height: 50px;
     width: 100%;
     background-color: rgba(6, 92, 92, 0.89);
     display: flex;

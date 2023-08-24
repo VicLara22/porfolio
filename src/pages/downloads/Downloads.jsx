@@ -8,7 +8,7 @@ export default function Downloads (){
             <h1>Descargar Curriculum Vitae</h1>
             <div className="container-divs-d">
             <div className="container-downloads-p">
-            <p>Si queres saber más sobre mí dejo a disposición mi CV, dandole click al siguiente botón se abrirá una nueva pestaña donde podrás ver el PDF</p>
+            <p>Si queres saber más sobre mí dejo a disposición mi CV, dandole click al siguiente botón se abrirá una nueva pestaña donde podrás ver el PD.</p>
             </div>
             <div className="container-btn-d"></div>
             <a href={downloadsCV} target='_blacnk' className="btn-d">Descargar CV</a>

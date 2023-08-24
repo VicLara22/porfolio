@@ -13,6 +13,7 @@ export default function About() {
         <div className="container-img-about">
           <img src={img} />
         </div>
+        <div className="container-div-text"> 
         <div className="container-text">
           <p>
             Hace unos años descubrí este nuevo mundo tech, comencé adquiriendo conocimientos por cuenta  propia y me inscribí en el Bootcamp de Soy Henry, actualmente sigo adquiriendo conocimiento, ya que estoy muy entusiasmada por seguir construyendo mi carrera en Programación.
@@ -23,6 +24,7 @@ export default function About() {
             <br />
             Además de ser Full Stack Developer dedico una parte de mi tiempo siendo voluntaria en un proyecto, ya que considero que lo mejor que podemos hacer es servir y ayudar a otros.
           </p>
+        </div>
         </div>
       </div>
     </section>

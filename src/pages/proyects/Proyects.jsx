@@ -3,6 +3,7 @@ import './Proyects.css';
 import Card from "./Card";
 import pokemon from '../../assets/pokemon.png';
 import goJob from '../../assets/GoJobLogo.png';
+import { Link } from "react-router-dom";
 
 
 export default function Proyects() {
@@ -22,7 +23,15 @@ export default function Proyects() {
      "gitHub": "https://github.com/VicLara22/goJob",
      "web":"https://go-job.vercel.app/",
      "img":goJob,
-    }
+    },
+    {
+      "id":3,
+      "title": "Portafolio",
+      "description": "Muestro mis experiencias, lo que se hacer, mis conocimientos y las tecnologias que utilizo.",
+      "gitHub": "https://github.com/VicLara22/porfolio",
+      "web":"https://lara-moyano-portfolio.vercel.app/",
+      "img":goJob,
+     }
  ]
   return (
     <section id="proyects">
@@ -30,7 +39,6 @@ export default function Proyects() {
         <h1>Mis Proyectos</h1>
       </div>
       <div className="container-divs-p">
-        <div >
           {data?.map((p) => ( 
           <Card
           key={p.id}
@@ -41,8 +49,14 @@ export default function Proyects() {
           img={p.img}
           />
          ))}
-        </div>
       </div>
+      <div className="btn-div-mas">
+      <Link to='https://github.com/VicLara22/'> 
+        <button 
+        className="btn-mas"
+        >Ver más proyectos</button>
+        </Link>
+        </div>
     </section>
   )
 }

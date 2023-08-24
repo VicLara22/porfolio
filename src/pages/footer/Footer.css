@@ -5,6 +5,17 @@ footer {
     background-color: rgba(6, 92, 92, 0.89);
 }
 
+footer a {
+    color: #6bb5fa;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
 ul {
     text-align: center;
     justify-content: center;
@@ -21,11 +32,6 @@ li {
     cursor: pointer;
     padding: 0.3rem;
     transition: 0.5s;
-}
-
-li:hover {
-    padding: 0.2rem;
-
 }
 
 footer p {

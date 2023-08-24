@@ -15,15 +15,14 @@ export default function Card({ img, title, description, gitHub, web, id }) {
           <h1>{title}</h1>
           <h2 >{description}</h2>
         </div>
-      </div>
-      <div className="btn-div">
+        <div className='container-proyects-btns'> 
         <Link to={gitHub}>
           <button className="btn-github"><AiFillGithub />GitHub</button>
         </Link>
         <Link to={web}>
           <button className="btn-visitar"><TbScreenShare />Visitar</button>
         </Link>
-
+        </div>
       </div>
     </div>
   )

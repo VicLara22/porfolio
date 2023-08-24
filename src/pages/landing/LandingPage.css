@@ -1,22 +1,15 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Inter';
-}
-
 #landing {
-    padding: 0 50px;
-    height: 80vh;
-
+    padding: 50px;
+    height: 100vh;
 }
 
 .container-portada {
     height: 100%;
     width: 100%;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px 0px 0px 0px;
+    align-items: center;
 }
 
 .container-portada h1 {
@@ -26,11 +19,11 @@
 
 .container-portada h2 {
     font-size: 45px;
-    padding: 0px 0px 10px;
 }
 
 .container-portada h3 {
     font-size: 35px;
+
 }
 
 .btn {
@@ -46,41 +39,31 @@
 .btn:hover {
     background-color: rgb(255, 255, 255);
     border: 1px solid #2991f1;
-    color: #2991f1;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 .container-img {
-    position: absolute;
-    left: 62%;
-    top: 20%;
-    height: 470px;
-    width: 470px;
-    display: inline-flex;
+    height: 70%;
+    width: 70%;
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 
 @media(max-width: 768px) {
     .container-portada h1 {
-        font-size: 34px;
+        font-size: 50px;
     }
 
     .container-portada h2 {
-        font-size: 28px;
+        font-size: 40px;
     }
 
     .container-portada h3 {
-        font-size: 23px;
-    }
-
-    .container-img {
-        left: 55%;
-        top: 25%;
-        height: 300px;
-        width: 300px;
+        font-size: 30px;
     }
 
 }
@@ -88,51 +71,48 @@
 @media(max-width: 425px) {
 
     .container-portada {
-        display: block;
-        text-align: center;
-        padding: 100px 0px 0px 30px;
+        padding-left: 30px;
     }
 
-    .container-img {
-        height: 300px;
-        width: 300px;
-        left: 25%;
-        top: 48%;
-        display: block;
-    }
-}
-@media(max-width: 425px) {
-    .container-portada {
-        padding: 100px 0px 0px 60px;
-    }
-
-}
-
-@media(max-width: 320px) {
-    .container-portada {
-        padding: 100px 0px 0px 80px;
-    }
     .container-portada h1 {
         font-size: 30px;
     }
 
     .container-portada h2 {
-        font-size: 24px;
+        font-size: 30px;
+        padding-bottom: 20px;
     }
 
     .container-portada h3 {
-        font-size: 19px;
+        font-size: 30px;
+        padding-top: 50px;
     }
-    .btn{
-font-size: 15px;
+}
+
+@media(max-width: 375px) {
+
+    .container-portada {
+        padding-left: 50px;
     }
 
+    .container-portada h1 {
+        font-size: 25px;
+    }
+
+}
+
+
+@media(max-width: 320px) {
+    .container-portada {
+        padding-left: 100px;
+    }
+    .btn {
+        font-size: 20px;
+    }
 
     .container-img {
-        height: 300px;
-        width: 300px;
-        left: 25%;
-        top: 48%;
-        display: block;
+        padding-top: 50px;
+        height: 100%;
+        width: 100%;
     }
 }
