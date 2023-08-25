@@ -16,10 +16,11 @@ export default function About() {
         <div className="container-div-text"> 
         <div className="container-text">
           <p>
-            Hace unos años descubrí este nuevo mundo tech, comencé adquiriendo conocimientos por cuenta  propia y me inscribí en el Bootcamp de Soy Henry, actualmente sigo adquiriendo conocimiento, ya que estoy muy entusiasmada por seguir construyendo mi carrera en Programación.
+          Durante la pandemia, descubrí el mundo de la tecnología y me inscribí en el Bootcamp de Soy Henry, donde experimenté meses llenos de desafíos y victorias.
             <br />
             <br />
-            Me considero una persona perseverante y con empatía, planificadora y organizada.
+            Tengo experiencia en resolución de desafíos, aprendizaje autodidacta e investigación de nuevas 
+tecnologías. Mi habilidad para trabajar en equipo y ser empática me permitió colaborar eficazmente.
             <br />
             <br />
             Además de ser Full Stack Developer dedico una parte de mi tiempo siendo voluntaria en un proyecto, ya que considero que lo mejor que podemos hacer es servir y ayudar a otros.

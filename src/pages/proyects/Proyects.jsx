@@ -3,6 +3,7 @@ import './Proyects.css';
 import Card from "./Card";
 import pokemon from '../../assets/pokemon.png';
 import goJob from '../../assets/GoJobLogo.png';
+import portafolio from '../../assets/portafolio.png';
 import { Link } from "react-router-dom";
 
 
@@ -30,7 +31,7 @@ export default function Proyects() {
       "description": "Muestro mis experiencias, lo que se hacer, mis conocimientos y las tecnologias que utilizo.",
       "gitHub": "https://github.com/VicLara22/porfolio",
       "web":"https://lara-moyano-portfolio.vercel.app/",
-      "img":goJob,
+      "img":portafolio,
      }
  ]
   return (
