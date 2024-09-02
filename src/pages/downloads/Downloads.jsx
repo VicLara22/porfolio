@@ -1,5 +1,5 @@
 import React from "react";
-import downloadsCV from '../downloads/downloads/11 6996 2751.pdf';
+import downloadsCV from '../downloads/downloads/LaraMoyano.pdf';
 import './Downloads.css'
 
 export default function Downloads (){
